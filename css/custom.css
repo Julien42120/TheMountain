@@ -1,0 +1,346 @@
+/**
+** STYLES COMMUN
+*/
+html,
+body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+h1, 
+h2, 
+h3{
+    font-family: 'Rokkitt', serif;
+}
+
+.btn-lg{
+    border-radius: 0px;
+}
+/**
+** HEADER - SECTION 1
+*/
+
+header {
+    background: url("../images/bg_header.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+
+/**
+** HEADER - SECTION 2
+*/
+#logo{
+    font-size: 45px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    font-weight: 300;
+}
+
+
+#logo img {
+    height: 80px;
+    position: relative;
+    top: -8px;
+
+}
+
+
+.navbar-toggle {
+    display: block;
+}
+#menu .navbar {
+    background: none;
+    border: none;
+    z-index: 1;
+}
+
+#menu .navbar-header {
+    float: none;
+    position: absolute;
+    right: 0px;
+    top: 45px;
+}
+
+#menu .navbar button {
+    border: none;
+    display: block;
+}
+
+#menu .navbar button span {
+    height: 6px;
+    width: 33px;
+    border-radius: 2px;
+    background-color: black;
+}
+
+#hidden-menu {
+    background: #333331;
+    width: 200px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 0px;
+    z-index: 2;
+}
+
+#hidden-menu .navbar-nav {
+    margin-top: 0;
+    float: none;
+    margin: 0 -15px;
+}
+
+#hidden-menu li {
+    border-bottom: 1px solid #222;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    height: 10vh;
+    min-height: 50px
+}
+
+#hidden-menu li:first-child {
+    border: none;
+}
+
+#hidden-menu li a {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    padding-top: 3vh;
+}
+
+#hidden-menu li a:hover {
+    color: #333;
+}
+
+.navbar-collapse.collapse {
+    display: none!important;
+    height: 100%!important;
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important;
+    height: 100%!important;
+}
+
+.navbar-nav>li {
+    float: none
+}
+
+header .vcenter{
+    text-align: center;
+    margin-top: 20vh;
+    color: white;
+}
+header h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+header h1 small{
+    color: white;
+    display: block;
+}
+
+header .btn {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+header p {
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 500px;
+    margin: 0 auto 40px auto;
+}
+
+/**
+** FEATURE - SECTION 2
+*/
+
+
+.feature{
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.feature h2{
+    margin-top: 10px;
+}
+
+.feature .glyphicon {
+    font-size: 50px;
+}
+
+/**
+** ABOUT ME - SECTION 3
+*/
+
+#about{
+    background: url("../images/bg_nuage.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    color: white;
+}
+
+#about .turquoise {
+    background: rgba(64, 224, 208, 0.5);
+    width: 50%;
+    float:right ;
+    padding:70px 50px;
+    margin-right: 15vw;
+    max-width: 500px;
+
+}
+
+#about h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+#about .p{
+    font-size: 1.1em;
+}
+
+#about .stats{
+    padding: 10px;
+}
+
+#about .stat{
+    border: 1px solid #fff;
+    font-family: 'Rokkitt', serif;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#about .stat .stat-title {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+#about .stat .stat-number {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/**
+** BLOG - SECTION 4
+*/
+
+#blog {
+    min-height: 700px; 
+    max-width: 85%;
+    background: url("../images/1200.jpeg") no-repeat;
+    background-size: 35%;
+    background-position:center right;
+    
+}
+
+.blog-container {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 10%;
+    text-align: center center;
+    font-family: 'Robotto'sans-serif;
+    
+}
+
+.blog-container h2 {
+    font-size: 30px;
+}
+
+.blog-container p {
+    font-size: 20px
+}
+
+button {
+    margin-left: 10%;
+
+}
+/**
+** HISTORY - SECTION 5
+*/
+#history{
+    min-height: 650px;
+    background: url("../images/bg_appareil_photo.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    color: white;
+}
+
+.blue-container{
+    min-height: 650px;
+    background: rgba(82, 188, 230, 0.5);
+    width: 50%;
+    float:left ;
+    padding:70px 50px;
+    margin-left: 12%;
+    max-width: 570px;
+    font-family:'Rokkitt' sans-serif;
+    line-height: 2;
+    font-style: italic;
+}
+
+/**
+** PHOTOS - SECTION 6
+*/
+
+#photos {
+    background-color: rgb(185, 184, 184);
+    
+}
+
+.photo { 
+    width: 390px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.photo--width2 { 
+    width: 780px; 
+    
+}
+  
+.photo img{
+    width: 90%;
+}
+  
+@media (max-width: 795px){
+    .photo--width2 { 
+        width: 390px;
+    }
+}
+
+
+
+/**
+** PARTENAIRES - SECTION 7
+*/
+
+#partenaires {
+    min-height: 150px;
+    
+}
+
+#partenaires .container-logo {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+/**
+** CONTACT - SECTION 8
+*/
+
+#contact {
+    min-height: 600px;
+    background: url("../images/bg_newsletter.jpg");
+    
+    background-position: top left ;
+    background-size: cover;
+    color: white;
+}
+
